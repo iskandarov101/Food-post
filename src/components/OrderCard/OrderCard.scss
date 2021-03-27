@@ -1,0 +1,93 @@
+.order-card {
+  padding: 0 24px;
+  padding-top: 24px;
+
+}
+.order-card__top {
+  display: flex;
+  align-items: center;
+}
+.order-card__food-img {
+  width: 40px;
+  height: 40px;
+
+}
+.order-card__price-wrap {
+  margin-left: 8px;
+}
+.order-card__food-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+.order-card__food-cost {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  color: #ABBBC2;
+}
+.order-cardd__value {
+  width: 48px;
+  height: 48px;
+  background: #2D303E;
+  border: 1px solid #393C49;
+  box-sizing: border-box;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-left: auto;
+}
+.order-card__total-price {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;  
+  text-align: right;
+  color: #FFFFFF;
+  margin: 0 24px;
+}
+.order-card__input-wrap {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.order-card__input {
+  height: 40px;
+  width: 297px;
+  background-color: #2D303E;
+  border: 1px solid #393C49;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.order-card__input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #E0E6E9;
+  padding-left: 14px;
+}
+
+.delete-icon {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #FF7CA3;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: transparent;
+  margin-left: 16px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
